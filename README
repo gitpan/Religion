@@ -1,0 +1,17 @@
+
+ Religion 1.03 - Improve die() and warn() handling.
+
+ Copyright (C) 1995, Kenneth Albanowski. Unlimited distribution and/or
+ modification is allowed as long as this copyright notice remains intact.
+
+This module, Religion, provides simplified access to $SIG{__DIE__} and
+$SIG{__WARN__} (which allow control over what happens when a die() or warn()
+occurs), and (as a side effect) enhances the standard error messages, which is
+especially useful if you are dealing with eval()'s.
+
+Simplest usage:
+
+ use Religion;
+ 
+For more complex usage notes, read the pod in Religion.pm.
+

@@ -1,0 +1,5 @@
+MANIFEST
+Makefile.PL
+README
+Religion.pm
+test.pl
